@@ -1,0 +1,181 @@
+<section id="banner">
+  <!-- Slider -->
+  <div id="main-slider" class="flexslider" appFlexslider>
+    <ul class="slides">
+      <li *ngFor="let slider of sliders">
+        <img [src]="slider.url" alt="" />
+        <div class="flex-caption">
+          <h3>{{slider.title}}</h3>
+          <p>{{slider.description}}</p>
+        </div>
+      </li>
+    </ul>
+    <ol class="flex-control-nav flex-control-paging"></ol>
+  </div>
+  <!-- end slider -->
+</section>
+
+<section id="content" class="no-padd">
+  <div class="main-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title text-center">
+            <h2>Services</h2>
+            <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+              <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="skill-home">
+          <div class="skill-home-solid clearfix">
+            <div class="col-md-3 col-sm-6 text-center">
+              <span class="icons c1">
+                <i class="fa fa-home"></i>
+              </span>
+              <div class="box-area">
+                <h3>Outsourcing</h3>
+                <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
+                  eius magni provident</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <span class="icons c2">
+                <i class="fa fa-rocket"></i>
+              </span>
+              <div class="box-area">
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
+                  eius magni provident</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <span class="icons c3">
+                <i class="fa fa-trophy"></i>
+              </span>
+              <div class="box-area">
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
+                  eius magni provident</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <span class="icons c4">
+                <i class="fa fa-star"></i>
+              </span>
+              <div class="box-area">
+                <h3>Quality</h3>
+                <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
+                  eius magni provident</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title text-center">
+          <h2>About Us</h2>
+          <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+            <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="about-text">
+          <p>Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta
+            dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+
+          <ul class="withArrow">
+            <li>
+              <span class="fa fa-angle-right"></span> Lorem ipsum dolor sit amet</li>
+            <li>
+              <span class="fa fa-angle-right"></span> consectetur adipiscing elit</li>
+            <li>
+              <span class="fa fa-angle-right"></span> Curabitur aliquet quam id dui</li>
+            <li>
+              <span class="fa fa-angle-right"></span> Donec sollicitudin molestie malesuada.</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="about-image">
+          <img src="img/about.jpg" alt="About Images">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="carousel" class="quote-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="quote">
+          <i class="fa fa-quote-left fa-4x"></i>
+        </div>
+        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="item">
+              <div class="profile-circle">
+                <img class="img-responsive" src="img/team1.jpg" alt="">
+              </div>
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore
+                  optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+            <div class="item">
+              <div class="profile-circle">
+                <img class="img-responsive" src="img/team2.jpg" alt="">
+              </div>
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore
+                  optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+            <div class="active item">
+              <div class="profile-circle">
+                <img class="img-responsive" src="img/team3.jpg" alt="">
+              </div>
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore
+                  optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+            <div class="item">
+              <div class="profile-circle">
+                <img class="img-responsive" src="img/team4.jpg" alt="">
+              </div>
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore
+                  optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
